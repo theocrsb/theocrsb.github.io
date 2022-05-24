@@ -12,7 +12,7 @@
 /* une class se selectionne avec un "." alors qu'un ID selectionne avec "#" */
 body {
     position: relative;
-    background: url(images/bg20.png);
+    background: url(images/bg2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
