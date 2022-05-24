@@ -33,10 +33,8 @@ body {
     backdrop-filter: blur(5px);
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    border: 2px solid rgb(201, 201, 201);
-    /* border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125); */
-    margin-bottom: 50px;
+    border: 1px solid rgba(150, 150, 150, 0.295);
+    margin-bottom: 100px;
 }
 
 .cardtop .contenttop {
@@ -72,9 +70,9 @@ body {
     backdrop-filter: blur(5px);
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 150px;
+    border-top: 1px solid rgba(150, 150, 150, 0.295);
+    border-left: 1px solid rgba(150, 150, 150, 0.295);
+    margin-bottom: 200px;
 }
 
 .card .content {
@@ -144,10 +142,10 @@ body {
     backdrop-filter: blur(5px);
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 50px;
+    border-top: 1px solid rgba(150, 150, 150, 0.295);
+    border-left: 1px solid rgba(150, 150, 150, 0.295);
     padding: 40px;
+    margin-bottom: 100px;
 }
 
 /*  selection de la class qui gere le contenu */
@@ -198,9 +196,9 @@ body {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 0;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 50px;
+    border-top: 1px solid rgba(150, 150, 150, 0.295);
+    border-left: 1px solid rgba(150, 150, 150, 0.295);
+    margin-bottom: 100px;
     padding: 40px;
 }
 
@@ -250,10 +248,10 @@ body {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 0;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 150px;
+    border-top: 1px solid rgba(150, 150, 150, 0.295);
+    border-left: 1px solid rgba(150, 150, 150, 0.295);
     padding: 40px;
+    margin-bottom: 100px;
 }
 
 
@@ -324,9 +322,9 @@ body {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 0;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 80px;
+    border-top: 1px solid rgba(150, 150, 150, 0.295);
+    border-left: 1px solid rgba(150, 150, 150, 0.295);
+    margin-bottom: 200px;
     padding: 20px;
 }
 
@@ -391,10 +389,7 @@ body {
 
 
     .cardtop {
-
         width: 100%;
-        border: 1px solid rgb(201, 201, 201);
-        margin-bottom: 100px;
     }
 
 
@@ -402,12 +397,7 @@ body {
         font-size: 30px;
     }
 
-    .contentlink {
-        margin-bottom: 150px;
+    .cardtop .contenttop {
+        padding: 20px;
     }
-
-    .cardmid3 {
-        margin-bottom: 50px;
-    }
-
 }
