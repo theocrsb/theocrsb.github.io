@@ -1,0 +1,380 @@
+/* "*" pour tout selectionner */
+
+* {
+    /* font family trouver sur google font  */
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* body n'est pas un selecteur "class" ou "div" donc pas de "." ou "#" */
+/* une class se selectionne avec un "." alors qu'un ID selectionne avec "#" */
+body {
+    position: relative;
+    background: url(images/bg20.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 1 carte en haut de page avec le titre principal */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardtop {
+    height: 5%;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid rgb(201, 201, 201);
+    /* border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125); */
+    margin-bottom: 50px;
+}
+
+.cardtop .contenttop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.cardtop .contenttop h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0px;
+}
+
+/*  2 carte avec la photo qui permet de rejoindre directement les informations me concernant */
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 600px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    margin-bottom: 150px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.card .content .picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .content .picture {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card .content h2,
+.card .content p,
+.card .content a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card .content h2 {
+    margin: 10px;
+}
+
+.card .content a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(to right, #B420CA, #2071CA);
+    width: 200px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 3px 3px #DAA7E6;
+}
+
+.card .content h2 {
+    margin-bottom: 10px;
+}
+
+
+/*  3 creation de la partie a propos qui raconte mon parcours */
+/*  selection de la class qui englobe le tout */
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  selection de la class qui creer la carte */
+
+.cardmid {
+    height: auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+/*  selection de la class qui gere le contenu */
+
+.cardmid .contentmid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+/*  selection du texte dans les balises */
+
+.cardmid .contentmid h2,
+.cardmid .contentmid p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cardmid .contentmid h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 60px;
+}
+
+.cardmid .contentmid p {
+    font-size: 1.2em;
+}
+
+
+/* 4 creation de la liste de mes motivations */
+
+.mid2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardmid2 {
+    height: auto;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+
+.cardmid2 .contentmid2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+.cardmid2 .contentmid2 h2,
+.cardmid2 .contentmid2 li {
+    color: white;
+    text-decoration: none;
+}
+
+.cardmid2 .contentmid2 h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.cardmid2 .contentmid2 li {
+    font-size: 1.2em;
+    list-style-type: circle;
+    margin: 5px;
+}
+
+/* 5 creation de la liste de competences */
+
+.mid3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardmid3 {
+    height: auto;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    margin-bottom: 150px;
+    padding: 40px;
+}
+
+
+.cardmid3 .contentmid3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+    height: 100%;
+    padding: 0 20px;
+    float: left;
+}
+
+
+.cardmid3 .contentmid3 h2,
+.cardmid3 .contentmid3 li {
+    color: white;
+    text-decoration: none;
+}
+
+.cardmid3 .contentmid3 h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.cardmid3 .contentmid3 li {
+    font-size: 1.2em;
+    list-style-type: circle;
+    margin: 5px;
+}
+
+
+.hardskills img {
+    width: 300px;
+    float: right;
+}
+
+
+
+/* 6 creation de la liste de liens */
+
+.link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.link ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.contentlink {
+    height: auto;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+.link a,
+.link ul,
+.link li {
+    text-decoration: none;
+    color: white;
+}
+
+.link img {
+    width: 100px;
+    height: 100px;
+}
+
+.link h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.link a {
+    display: inline-block;
+    text-align: center;
+}
+
+/* 7 creation du pied de page */
+/* la flexbox ne fonctionne que sur une div */
+.contentbot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    padding: 10px;
+}
+
+/* Pour faire en sorte que le site web soit bien compatible sur mobile */
+
+@media screen and (max-width: 1100px) {
+    .hardskills img {
+        float: left;
+        width: 200px;
+    }
+}
