@@ -326,7 +326,7 @@ body {
     border-bottom-right-radius: 0;
     border-top: 1px solid rgb(125, 125, 125);
     border-left: 1px solid rgb(125, 125, 125);
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     padding: 20px;
 }
 
@@ -361,13 +361,17 @@ body {
 /* la flexbox ne fonctionne que sur une div */
 .contentbot {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
     align-content: center;
     height: auto;
     padding: 10px;
+}
+
+.contentbot img {
+    width: 50%;
 }
 
 /* Pour faire en sorte que le site web soit bien compatible sur mobile */
@@ -375,6 +379,35 @@ body {
 @media screen and (max-width: 1100px) {
     .hardskills img {
         float: left;
-        width: 200px;
+        width: 150px;
     }
+}
+
+@media screen and (max-width: 850px) {
+
+    .contentbot img {
+        width: 35%;
+    }
+
+
+    .cardtop {
+
+        width: 100%;
+        border: 1px solid rgb(201, 201, 201);
+        margin-bottom: 100px;
+    }
+
+
+    .cardtop .contenttop h1 {
+        font-size: 30px;
+    }
+
+    .contentlink {
+        margin-bottom: 150px;
+    }
+
+    .cardmid3 {
+        margin-bottom: 50px;
+    }
+
 }
