@@ -355,6 +355,25 @@ body {
     text-align: center;
 }
 
+.link .contentlink .contentlinkbot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link #mail {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(to right, #B420CA, #2071CA);
+    width: 200px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 3px 3px #DAA7E6;
+}
+
 /* 7 creation du pied de page */
 /* la flexbox ne fonctionne que sur une div */
 .contentbot {
@@ -400,4 +419,60 @@ body {
     .cardtop .contenttop {
         padding: 20px;
     }
+
+    .link #mail {
+        font-size: 12px;
+        font-weight: 500;
+        width: 150px;
+    }
+
+    .link img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contentlink {
+        width: 60%;
+    }
+}
+
+/* Création le partie "hover" pour ajouter du style au survol de la souris */
+
+.mid :hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contentmid :hover {
+    transform: scale(1.0);
+}
+
+.cardmid :hover {
+    transform: scale(1.0);
+}
+
+.mid2 :hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.contentmid2 :hover {
+    transform: scale(1.0);
+}
+
+.cardmid2 :hover {
+    transform: scale(1.0);
+}
+
+.mid3 :hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.contentmid3 :hover {
+    transform: scale(1.0);
+}
+
+.cardmid3 :hover {
+    transform: scale(1.0);
 }
