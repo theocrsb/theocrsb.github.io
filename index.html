@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Théo — crosb | Web Developer</title>
+  <meta name="description" content="Portfolio of Théo (crosb) — Web Developer. Projects, experience and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="mark" aria-hidden="true">
+          <img src="assets/logo-rbg.png" alt="logo" />
+        </span>
+        <strong>crosb</strong>
+      </a>
+      <div class="cta">
+        <a class="btn ghost" href="#work">Experience</a>
+        <a class="btn primary" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="section hero reveal" id="hero">
+      <div>
+        <h1 class="title">👋 Hi, I'm Théo — Web Developer</h1>
+        <p class="subtitle">I design clean, accessible and performant interfaces. Currently working on an open-source railway project.</p>
+        <div class="stack">
+          <span class="chip">React</span>
+          <span class="chip">TypeScript</span>
+        </div>
+        <div style="margin-top:28px">
+          <a class="btn primary" href="#work">See my experience</a>
+          <a class="btn ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/in/th%C3%A9o-crosbie-2077982a0/">LinkedIn</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 class="card-title">🎯 Current Focus</h3>
+        <p>Working on the <a href="https://osrd.fr/en/" target="_blank" rel="noopener">OSRD Project</a>, an open-source railway design platform developed by SNCF Réseau.</p>
+        <p class="muted">Focus: Front-End Development, UI Integration, Responsive Design.</p>
+      </div>
+    </section>
+
+    <!-- WORK / TIMELINE -->
+    <section class="section reveal" id="work">
+      <h2 class="h2">👨‍💻 Experience</h2>
+      <div class="timeline">
+        <div class="item reveal">
+          <div class="dot" aria-hidden="true"></div>
+          <div>
+            <div class="role">Frontend Developer (React) — <span class="org">SNCF Réseau</span></div>
+            <div class="dates">2024 – Present</div>
+          </div>
+        </div>
+        <div class="item reveal">
+          <div class="dot" aria-hidden="true"></div>
+          <div>
+            <div class="role">Full Stack Developer (Angular &amp; Spring) — <span class="org">e.SNCF Solutions</span></div>
+            <div class="dates">2023 – 2024</div>
+          </div>
+        </div>
+        <div class="item reveal">
+          <div class="dot" aria-hidden="true"></div>
+          <div>
+            <div class="role">Web &amp; Mobile Developer Training (React &amp; NestJS) — <span class="org">Simplon.co</span></div>
+            <div class="dates">2022 – 2023</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+      <div class="card contact-card">
+        <h2 class="h2">📫 Get in touch</h2>
+        <p class="muted">Open to opportunities around frontend, design systems and product development.</p>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.linkedin.com/in/th%C3%A9o-crosbie-2077982a0/">Contact me on LinkedIn</a>
+          <a class="btn ghost" target="_blank" rel="noopener" href="https://theocrsb.github.io">Visit my portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <span>© <span id="year"></span> Théo Crosbie — crosb</span>
+      <a href="#top" class="btn ghost" aria-label="Back to top">Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
