@@ -1,16 +1,16 @@
 :root {
   --pine: #274C3E;
-  /* vert sapin principal */
+  /* main pine green */
   --pine-900: #1e3d32;
-  /* plus sombre */
+  /* darker */
   --pine-100: #e5efe9;
-  /* très clair */
+  /* very light */
   --ink: #0f172a;
-  /* texte sombre (fallback) */
+  /* dark text (fallback) */
   --sand: #f7f7f5;
-  /* fond clair élégant */
+  /* elegant light background */
   --muted: #8aa397;
-  /* texte secondaire */
+  /* secondary text */
   --radius: 18px;
   --shadow: 0 8px 30px rgba(0, 0, 0, .08);
   --transition: 420ms cubic-bezier(.2, .8, .2, 1);
